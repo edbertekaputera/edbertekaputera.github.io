@@ -1,0 +1,19 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+@import url("https://fonts.googleapis.com/css?family=Montserrat:300|Roboto:100");
+@import url("https://fonts.googleapis.com/css?family=Reem+Kufi");
+
+@font-face {
+  font-family: "LuloCleanOne-Bold-Regular";
+  font-style: normal;
+  font-weight: 400;
+  src: url("https://anima-uploads.s3.amazonaws.com/5c5a895e4870f0000a84b242/Lulo Clean One Bold.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "LuloCleanOne-Bold-☞";
+  font-style: normal;
+  font-weight: 400;
+  src: url("https://anima-uploads.s3.amazonaws.com/projects/6084e0338c15fafc2658940d/fonts/lulo-clean-one-bold.otf")
+    format("opentype");
+}
+
