@@ -75,16 +75,16 @@ const sr = ScrollReveal({
 	distance: "80px",
 	duration: 2000,
 	reset: true
-})
+});
+
 // Scroll Home 
-sr.reveal(".home-title", {})
-sr.reveal(".home-image", {delay: 400})
+sr.reveal(".home-title", {});
+sr.reveal(".home-image", {delay: 400});
 
 // Scroll Education
-sr.reveal('.education-title-edu', {})
-sr.reveal('.education-title-02', {})
-sr.reveal('.edu-text', {delay: 400})
-
+sr.reveal('.education-title-edu', {});
+sr.reveal('.education-title-02', {});
+sr.reveal('.edu-text', {delay: 400});
 
 document.addEventListener('DOMContentLoaded', init);
 // Init on DOM load
@@ -94,4 +94,4 @@ function init() {
 	const words = txtElement.getAttribute("data-words");
 	const wait = txtElement.getAttribute("data-wait");
 	new TypeWriter(txtElement, words, wait);
-}
+};
