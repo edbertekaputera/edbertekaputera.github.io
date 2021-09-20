@@ -86,6 +86,7 @@ function init() {
 		duration: 2000,
 		reset: true
 	});
+	
 	// Scroll Home 
 	sr.reveal(".home-title", {});
 	sr.reveal(".home-image", {delay: 400});
