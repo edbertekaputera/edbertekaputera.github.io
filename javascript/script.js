@@ -42,6 +42,7 @@ class TypeWriter {
 		setTimeout(() => this.type(), typeSpeed);
 	}
 }
+
 //SMOOTH SCROLLING EFFECT
 $(document).ready(function(){
   // Add smooth scrolling to all links
@@ -68,9 +69,16 @@ $(document).ready(function(){
   });
 });
 
-// Navigation Home Click (HIGHLIGHT)
-
-// Navigation Education Click (SCROLL AND HIGHLIGHT)
+// Scroll reveal animation
+const sr = ScrollReveal({
+	origin: "top",
+	distance: "80px",
+	duration: 2000,
+	reset: true
+})
+// Scroll Home 
+sr.reveal(".home-title", {})
+sr.reveal(".home-image", {delay: 400})
 
 document.addEventListener('DOMContentLoaded', init);
 // Init on DOM load
