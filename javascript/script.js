@@ -80,6 +80,12 @@ const sr = ScrollReveal({
 sr.reveal(".home-title", {})
 sr.reveal(".home-image", {delay: 400})
 
+// Scroll Education
+sr.reveal('.education-title-edu', {})
+sr.reveal('.education-title-02', {})
+sr.reveal('.edu-text', {delay: 400})
+
+
 document.addEventListener('DOMContentLoaded', init);
 // Init on DOM load
 // Init app
