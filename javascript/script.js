@@ -7,7 +7,7 @@ class TypeWriter {
 		this.wait = parseInt(wait, 10);
 		this.type();
 		this.isDeleting = false;
-	}
+	};
 
 	type() {
 		const FullTxt = this.words;
@@ -40,8 +40,8 @@ class TypeWriter {
 		}
 
 		setTimeout(() => this.type(), typeSpeed);
-	}
-}
+	};
+};
 
 //SMOOTH SCROLLING EFFECT
 $(document).ready(function(){
@@ -69,29 +69,35 @@ $(document).ready(function(){
   });
 });
 
-// Scroll reveal animation
-const sr = ScrollReveal({
-	origin: "top",
-	distance: "80px",
-	duration: 2000,
-	reset: true
-});
-
-// Scroll Home 
-sr.reveal(".home-title", {});
-sr.reveal(".home-image", {delay: 400});
-
-// Scroll Education
-sr.reveal('.education-title-edu', {});
-sr.reveal('.education-title-02', {});
-sr.reveal('.edu-text', {delay: 400});
-
 document.addEventListener('DOMContentLoaded', init);
 // Init on DOM load
 // Init app
 function init() {
+	// Typewriter
 	const txtElement = document.querySelector('.home-subtitle');
 	const words = txtElement.getAttribute("data-words");
 	const wait = txtElement.getAttribute("data-wait");
 	new TypeWriter(txtElement, words, wait);
+	
+	// Scroll reveal animation
+	const sr = ScrollReveal({
+		origin: "top",
+		distance: "80px",
+		duration: 2000,
+		reset: true
+	});
+	// Scroll Home 
+	sr.reveal(".home-title", {});
+	sr.reveal(".home-image", {delay: 400});
+	sr.reveal(".home-subtitle", {delay: 100})
+
+	// Scroll Education
+	sr.reveal('.education-title-edu', {});
+	sr.reveal('.education-title-02', {});
+	sr.reveal('.edu-subtitle', {delay: 200});
+	sr.reveal('.edu-text', {delay: 200});
+	sr.reveal('.edu-bodyline', {});
+	sr.reveal('.edu-kanaan-logo', {delay: 100});
+	sr.reveal('.edu-loren-logo', {delay: 100});
+	sr.reveal('.edu-button-container', {});
 }
