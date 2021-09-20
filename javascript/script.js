@@ -94,4 +94,4 @@ function init() {
 	const words = txtElement.getAttribute("data-words");
 	const wait = txtElement.getAttribute("data-wait");
 	new TypeWriter(txtElement, words, wait);
-};
+}
