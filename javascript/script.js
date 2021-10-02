@@ -100,5 +100,6 @@ function init() {
 	sr.reveal('.edu-bodyline', {});
 	sr.reveal('.edu-kanaan-logo', {delay: 100});
 	sr.reveal('.edu-loren-logo', {delay: 100});
+	sr.reveal('.edu-uow-logo', {delay: 100});
 	sr.reveal('.edu-button-container', {});
 }
