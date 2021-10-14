@@ -381,20 +381,20 @@
 
 }
 
-@media screen and (min-width: 70vh) and (max-width: 100vh){
-	/* iPad/Tablet Screen */
+@media screen and (max-width: 100vh){
+	/* iPhone Screen */
 	.home-container{
 		background-color: #000000;
-		height: 133vw;
+		height: 200vw;
 		width: 100%;
 		top: 0px;
 	}
 
 	.home-bg{
-		z-index: 100;
+		z-index: 3;
 		background-color: transparent;
 		width: 100%;
-		height: 133vw;
+		height: 200vw;
 		top: 0px;
 		opacity: 15%;
 		mix-blend-mode: normal;
@@ -406,10 +406,10 @@
 	.home-image {
 		z-index: 3;
 		background-color: transparent;
-		width: 60vw;
+		width: 80vw;
 		height: auto;
-		left: 20vw;
-		top: 9vw; 
+		left: 12vw;
+		top: 23vw; 
 		bottom: 0px;
 		mix-blend-mode: normal;
 		object-position: right bottom;
@@ -421,7 +421,7 @@
 		position: absolute;
 		color: #ffffff;
 		font-family: "LuloCleanOne-Bold-☞", Helvetica;
-		font-size: 6vw;
+		font-size: 9vw;
 		font-style: normal;
 		font-weight: 300;
 		height: auto;
@@ -430,7 +430,7 @@
 		line-height: normal;
 		mix-blend-mode: normal;
 		text-align: left;
-		top: 66vw;
+		top: 98vw;
 		width: auto;
 	}
 
@@ -439,7 +439,7 @@
 		position: absolute;
 		color: #ffffff;
 		font-family: "Montserrat", Helvetica;
-		font-size: 4vw;
+		font-size: 4.5vw;
 		font-style: normal;
 		font-weight: 300;
 		height: auto;
@@ -448,7 +448,7 @@
 		line-height: normal;
 		mix-blend-mode: normal;
 		text-align: left;
-		top: 93vw;
+		top: 140vw;
 		width: auto;	
 	}
 	.home-subtitle > .txt{
@@ -515,10 +515,10 @@
 
 	.education-container{
 		background-color: #00063A;
-		height: 65vw;
+		height: 200vw;
 		left: 0px;
 		position: absolute;
-		top: 133vw;
+		top: 200vw;
 		width: 100%;
 	}
 
@@ -527,12 +527,12 @@
 		background-color: transparent;
 		color: #ffffff;
 		height: auto;
-		left: 33vw;
+		left: 15vw;
 		position: absolute;
-		top: 8vw;
+		top: 20vw;
 		width: auto;
 		font-family: "LuloCleanOne-Bold-Regular", Helvetica;
-		font-size: 4vw;
+		font-size: 9vw;
 		font-style: normal;
 		font-weight: 400;
 		letter-spacing: 0px;
@@ -540,15 +540,15 @@
 	}
 
 	.education-title-02{
-		top: 8vw;
+		top: 20vw;
 		z-index: 3;
 		background-color: transparent;
 		color: #00d1ff;
 		height: auto;
-		left: 29vw;
+		left: 7.5vw;
 		position: absolute;
 		font-family: "LuloCleanOne-Bold-☞", Helvetica;
-		font-size: 2vw;
+		font-size: 4vw;
 		font-style: normal;
 		font-weight: 400;
 		letter-spacing: 0px;
@@ -559,10 +559,10 @@
 	.edu-bodyline{
 		z-index: 3;
 		background-color: transparent;
-		height: 30vw; 
-		width: 20.2vw;
-		top: 14vw; 
-		left: 38vw; 
+		height: 90vw; 
+		width: 60.6vw;
+		top: 35vw; 
+		left: 18vw; 
 		position: absolute;
 
 	}
@@ -570,9 +570,9 @@
 	.edu-kanaan-logo{
 		z-index: 3;
 		background-color: transparent;
-		top: 21vw;
-		left: 51vw;
-		height: 6vw;
+		top: 56vw;
+		left: 55vw;
+		height: 15vw;
 		width: auto;
 		position: absolute;
 	}
@@ -580,9 +580,9 @@
 	.edu-kanaan-logo:hover{
 		z-index: 3;
 		background-color: transparent;
-		top: 21vw;
-		left: 51vw;
-		height: 7vw;
+		top: 56vw;
+		left: 55vw;
+		height: 16vw;
 		width: auto;
 		position: absolute;
 	}
@@ -590,9 +590,9 @@
 	.edu-loren-logo{
 		z-index: 3;
 		background-color: transparent;
-		top: 28.5vw;
-		left: 40vw;
-		height: 6vw;
+		top: 78.5vw;
+		left: 28vw;
+		height: 15vw;
 		width: auto;
 		position: absolute;
 	}
@@ -600,9 +600,9 @@
 	.edu-loren-logo:hover{
 		z-index: 3;
 		background-color: transparent;
-		top: 28.5vw;
-		left: 40vw;
-		height: 7vw;
+		top: 78.5vw;
+		left: 28vw;
+		height: 16vw;
 		width: auto;
 		position: absolute;
 	}
@@ -610,9 +610,9 @@
 	.edu-uow-logo{
 		z-index: 3;
 		background-color: transparent;
-		top: 37.5vw;
-		left: 51vw;
-		height: 6.1vw;
+		top: 105.5vw;
+		left: 55vw;
+		height: 15.1vw;
 		width: auto;
 		position: absolute;
 	}
@@ -620,9 +620,9 @@
 	.edu-uow-logo:hover{
 		z-index: 3;
 		background-color: transparent;
-		top: 37.5vw;
-		left: 51vw;
-		height: 7vw;
+		top: 105.5vw;
+		left: 55vw;
+		height: 16vw;
 		width: auto;
 		position: absolute;
 	}
@@ -665,10 +665,10 @@
 		border-width: 2px;
 		background-color: transparent;
 		position: absolute;
-		width: 15vw;
-		height: 4vw;
-		left: 42vw;
-		top: 50vw;
+		width: 45vw;
+		height: 12vw;
+		left: 26vw;
+		top: 140vw;
 		transition: 0.2s;
 	}
 	.edu-button-container:hover{
@@ -683,7 +683,7 @@
 		width: 100%;
 		color: #ffffff;
 		font-family: "Montserrat", Helvetica;
-		font-size: 2vw;
+		font-size: 5vw;
 		font-style: normal;
 		font-weight: 400;
 		letter-spacing: 0px;
@@ -699,9 +699,9 @@
 
 	.footer-container{
 		background-color: #000000;
-		height: 20vw;
+		height: 30vw;
 		width: 100%;
-		top: 260vw;
+		top: 400vw;
 		position: absolute;
 	}
 
@@ -710,12 +710,12 @@
 		position: absolute;
 		color: #ffffff;
 		font-family: "Menlo";
-		font-size: 3vw;
+		font-size: 6vw;
 		font-style: normal;
 		height: auto;
-		left: 35%;
+		left: 22%;
 		text-align: center;
-		top: 3.5vw;
+		top: 5vw;
 		width: auto;
 	}
 
@@ -724,12 +724,12 @@
 		position: absolute;
 		color: #ffffff;
 		font-family: "Menlo";
-		font-size: 1.5vw;
+		font-size: 3vw;
 		font-style: normal;
 		height: auto;
-		left: 34%;
+		left: 18%;
 		text-align: center;
-		top: 15.5vw;
+		top: 30vw;
 		width: auto;
 	}
 
@@ -738,12 +738,12 @@
 		position: absolute;
 		color: #ffffff;
 		font-family: "Menlo";
-		font-size: 1vw;
+		font-size: 2.5vw;
 		font-style: normal;
 		height: auto;
 		left: 34%;
 		text-align: center;
-		top: 8.5vw;
+		top: 12.5vw;
 		width: auto;
 		text-decoration: none;
 	}
@@ -753,9 +753,9 @@
 	
 	.footer-icon{
 		position: absolute;
-		top: 11vw;
+		top: 15vw;
 		color: #ffffff;
-		font-size: 3.5vw;
+		font-size: 5vw;
 		text-decoration: none;
 	}
 	.footer-icon:hover{
