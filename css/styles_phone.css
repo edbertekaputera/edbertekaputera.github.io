@@ -1,14 +1,14 @@
 @media screen and (max-width: 100vh){
 	/* iPhone Screen */
 	.home-container{
-		background-color: #000000;
+		background-color: transparent;
 		height: 200vw;
 		width: 100%;
 		top: 0px;
 	}
 
 	.home-bg{
-		z-index: 3;
+		z-index: -1;
 		background-color: transparent;
 		width: 100%;
 		height: 200vw;
@@ -21,7 +21,7 @@
 	}
 
 	.home-image {
-		z-index: 3;
+		z-index: 1;
 		background-color: transparent;
 		width: 80vw;
 		height: auto;
@@ -30,12 +30,12 @@
 		bottom: 0px;
 		mix-blend-mode: normal;
 		object-position: right bottom;
-		position: absolute;
+		position: fixed;
 	}
 
 	.home-title {
-		z-index: 3;
-		position: absolute;
+		z-index: 1;
+		position: fixed;
 		color: #ffffff;
 		font-family: "LuloCleanOne-Bold-☞", Helvetica;
 		font-size: 9vw;
@@ -52,8 +52,8 @@
 	}
 
 	.home-subtitle{
-		z-index: 3;
-		position: absolute;
+		z-index: 1;
+		position: fixed;
 		color: #ffffff;
 		font-family: "Montserrat", Helvetica;
 		font-size: 4.5vw;
@@ -279,6 +279,7 @@
 	}
 	
 	.education-container{
+		z-index: 2;
 		background-color: #00063A;
 		height: 200vw;
 		left: 0px;
@@ -704,6 +705,7 @@
 	}
 
 	.footer-container{
+		z-index: 2;
 		background-color: #000000;
 		height: 30vw;
 		width: 100%;

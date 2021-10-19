@@ -95,8 +95,20 @@ function init() {
 	// Scroll Education
 	sr.reveal('.education-title-edu', {});
 	sr.reveal('.education-title-02', {});
-	sr.reveal('.edu-subtitle', {delay: 200});
-	sr.reveal('.edu-text', {delay: 200});
+	sr.reveal('.edu-subtitle-kanaan1', {delay: 200});
+	sr.reveal('.edu-subtitle-kanaan2', {delay: 200});
+	sr.reveal('.edu-text-kanaan1', {delay: 200});
+	sr.reveal('.edu-text-kanaan2', {delay: 200});
+	sr.reveal('.edu-text-kanaan3', {delay: 200});
+	sr.reveal('.edu-text-kanaan4', {delay: 200});
+	sr.reveal('.edu-subtitle-loren1', {delay: 200});
+	sr.reveal('.edu-subtitle-loren2', {delay: 200});
+	sr.reveal('.edu-text-loren1', {delay: 200});
+	sr.reveal('.edu-text-loren2', {delay: 200});
+	sr.reveal('.edu-subtitle-uow1', {delay: 200});
+	sr.reveal('.edu-subtitle-uow2', {delay: 200});
+	sr.reveal('.edu-text-uow1', {delay: 200});
+	sr.reveal('.edu-text-uow2', {delay: 200});
 	sr.reveal('.edu-bodyline', {});
 	sr.reveal('.edu-kanaan-logo', {delay: 100});
 	sr.reveal('.edu-loren-logo', {delay: 100});
