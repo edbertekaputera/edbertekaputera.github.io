@@ -81,6 +81,11 @@
 		}
 	}
 
+	.navbox-logo{
+		z-index: -999;
+		color: transparent;
+	}
+
 	.navbox-container{
 		z-index: 4;
 		background-color: transparent;

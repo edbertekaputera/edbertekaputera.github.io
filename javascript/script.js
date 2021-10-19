@@ -69,6 +69,7 @@ $(document).ready(function(){
   });
 });
 
+
 document.addEventListener('DOMContentLoaded', init);
 // Init on DOM load
 // Init app
@@ -78,7 +79,20 @@ function init() {
 	const words = txtElement.getAttribute("data-words");
 	const wait = txtElement.getAttribute("data-wait");
 	new TypeWriter(txtElement, words, wait);
-	
+
+	// MENU SHOW FOR PHONE SCREEN
+	const showMenu = (toggleId, navId) =>{
+		const toggle = document.getElementById(toggleId),
+		nav = document.getElementById(navId)
+
+		if(toggle && nav){
+			toggle.addEventListener('click', ()=>{
+				nav.classList.toggle('show') 
+			})
+		}
+	}
+	showMenu('navbox-logo', 'navbox-container')
+
 	// Scroll reveal animation
 	const sr = ScrollReveal({
 		origin: "top",
