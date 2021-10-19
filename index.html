@@ -4,7 +4,8 @@
     <meta charset="utf-8">
     <title>Edbert Ekaputera</title>
     <link rel="icon" href="../assets/images/self">
-    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../css/styles_desktop.css">
+    <link rel="stylesheet" href="../css/styles_phone.css">
     <link rel="stylesheet" href="../css/fonts.css">
     <link rel='stylesheet' href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css'>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
@@ -17,22 +18,22 @@
 <!-- Fixed Navigation box -->
     <div class="navbox-container">
         <div class="navbox-background"></div>
-        <a href="#home" class="navbox-text" style="left: 43.5%">
+        <a href="#home" class="navbox-text-home">
           Home
         </a>
-        <a href= "#education" class="navbox-text" style="left: 51%">
+        <a href= "#education" class="navbox-text-edu">
           Education
         </a>
-        <a class="navbox-text" style="left: 61%">
+        <a href="#skills" class="navbox-text-skills">
           Skills
         </a>
-        <a class="navbox-text" style="left: 67.5%">
+        <a href="#experience" class="navbox-text-exp">
           Experience
         </a>
-        <a class="navbox-text" style="left: 78%">
+        <a href="#portfolio" class="navbox-text-portfolio">
           Portfolio
         </a>
-        <a class="navbox-text" style="left: 87%">
+        <a href="#contact" class="navbox-text-contact">
           Contact
         </a>
     </div>
@@ -53,32 +54,35 @@
     <div class="education-container" id="education">
         <div class="education-title-edu">Education</div>
         <div class="education-title-02">02</div>
-        <img class="edu-bodyline" src="assets/images/edu-bodyline.png">
+        <img class="edu-bodyline" src="assets/images/edu-bodyline.png">        
+        <!-- KGS -->
         <a href="https://www.kanaanglobal.sch.id/" target="_blank">
-            <img class="edu-kanaan-logo" src="assets/images/edu-kanaan-logo.png">
+          <img class="edu-kanaan-logo" src="assets/images/edu-kanaan-logo.png">
         </a>
-        <div class="edu-subtitle" style="top: 22vw; left: 58vw;">Kanaan Global</div>
-        <div class="edu-subtitle" style="top: 23.5vw; left: 58vw;">School</div>
-        <div class="edu-text" style="top: 25vw; left: 58vw;">Primary school</div>
-        <div class="edu-text" style="top: 25vw; left: 66.5vw; color: #00d1ff;">2009 - 2015</div>
-        <div class="edu-text" style="top: 26.5vw; left: 58vw;">Junior High school</div>
-        <div class="edu-text" style="top: 26.5vw; left: 66.5vw; color: #00d1ff;">2015 - 2018</div>
+        <div class="edu-subtitle-kanaan1">Kanaan Global</div>
+        <div class="edu-subtitle-kanaan2">School</div>
+        <div class="edu-text-kanaan1">Primary school</div>
+        <div class="edu-text-kanaan2">2009 - 2015</div>
+        <div class="edu-text-kanaan3">Junior High school</div>
+        <div class="edu-text-kanaan4">2015 - 2018</div>
+        <!-- LOREN -->
         <a href="https://www.santa-laurensia.com/" target="_blank">
-            <img class="edu-loren-logo" src="assets/images/edu-loren-logo.png">
+          <img class="edu-loren-logo" src="assets/images/edu-loren-logo.png">
         </a>
-        <div class="edu-subtitle" style="top: 29.5vw; left: 25vw;">Santa Laurensia</div>
-        <div class="edu-subtitle" style="top: 31vw; left: 28.5vw;">High School</div>
-        <div class="edu-text" style="top: 32.5vw; left: 31vw;">Senior High school</div>
-        <div class="edu-text" style="top: 32.5vw; left: 25.5vw; color: #00d1ff;">2018 - 2021</div>
+        <div class="edu-subtitle-loren1">Santa Laurensia</div>
+        <div class="edu-subtitle-loren2">High School</div>
+        <div class="edu-text-loren1">Senior High school</div>
+        <div class="edu-text-loren2">2018 - 2021</div>
+        <!-- UOW -->
         <a href="https://www.uow.edu.au/" target="_blank">
-            <img class="edu-uow-logo" src="assets/images/edu-uow-logo.png">
+          <img class="edu-uow-logo" src="assets/images/edu-uow-logo.png">
         </a>
-        <div class="edu-subtitle" style="top: 38vw; left: 58vw;">University of</div>
-        <div class="edu-subtitle" style="top: 39.5vw; left: 58vw;">Wollongong (SIM GE)</div>
-        <div class="edu-text" style="top: 41vw; left: 58vw;">Bachelor of Computer Science</div>
-        <div class="edu-text" style="top: 41vw; left: 71.5vw; color: #00d1ff;">2021 - 2024</div>
+        <div class="edu-subtitle-uow1">University of</div>
+        <div class="edu-subtitle-uow2">Wollongong (SIM GE)</div>
+        <div class="edu-text-uow1">Bachelor of Computer Science</div>
+        <div class="edu-text-uow2">2021 - 2024</div>
         <a class="edu-button-container" href="assets/documents/edu-cv.pdf" target="_blank">
-            <div class="edu-button-text">View CV</div>
+          <div class="edu-button-text">View CV</div>
         </a>
     </div> 
 
@@ -86,29 +90,29 @@
     <footer class="footer-container" id="footer">
       <div class="footer-title">Edbert Ekaputera</div>
       <div class="footer-copyright">&#169; 2021 copyright all right reserved</div>
-		<a class="footer-menu" href="#home" style="left: 33.5vw">Home</a>
-		<a class="footer-menu" href="#education" style="left: 37vw">Education</a>
-		<a class="footer-menu" href="#home" style="left: 43.3vw">Skills</a>
-		<a class="footer-menu" href="#home" style="left: 47.75vw">Experience</a>
-		<a class="footer-menu" href="#home" style="left: 54.5vw">Portfolio</a>
-		<a class="footer-menu" href="#home" style="left: 60.75vw">Contact</a>
+		<a class="footer-menu footer-home" href="#home">Home</a>
+		<a class="footer-menu footer-edu" href="#education">Education</a>
+		<a class="footer-menu footer-skills" href="#skills">Skills</a>
+		<a class="footer-menu footer-exp" href="#experience">Experience</a>
+		<a class="footer-menu footer-portfolio" href="#portfolio">Portfolio</a>
+		<a class="footer-menu footer-contact" href="#contact">Contact</a>
     <a href="https://www.instagram.com/edbertekaputera/?hl=en" target="_blank">
-      <i class='bx bxl-instagram footer-icon' style="left: 35%"></i>
+      <i class='bx bxl-instagram footer-icon footer-instagram'></i>
     </a>
     <a href="https://github.com/edbertekaputera" target="_blank">
-      <i class='bx bxl-github footer-icon' style="left: 40%" ></i>
+      <i class='bx bxl-github footer-icon footer-github'></i>
     </a>
     <a href="https://www.linkedin.com/in/edbertekaputera" target="_blank">
-      <i class='bx bxl-linkedin-square footer-icon' style="left: 45%" ></i>
+      <i class='bx bxl-linkedin-square footer-icon footer-linkedin'></i>
     </a>
     <a href="https://www.twitter.com/Eekaputera" target="_blank">
-      <i class='bx bxl-twitter footer-icon' style="left: 50%" ></i>
+      <i class='bx bxl-twitter footer-icon footer-twitter'></i>
     </a>
     <a href="https://discordapp.com/users/278148250622623744" target="_blank">
-      <i class='bx bxl-discord-alt footer-icon' style="left: 55%" ></i>
+      <i class='bx bxl-discord-alt footer-icon footer-discord'></i>
     </a>
     <a href="https://api.whatsapp.com/send?phone=6287776648825" target="_blank">
-      <i class='bx bxl-whatsapp footer-icon' style="left: 60%" ></i>
+      <i class='bx bxl-whatsapp footer-icon footer-wa'></i>
     </a>
   </footer>
 
