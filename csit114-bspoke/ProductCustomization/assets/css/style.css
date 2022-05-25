@@ -1,0 +1,16 @@
+.sp_container {
+  margin-top: 171px;
+}
+
+@media (min-width: 768px) {
+  .sp_container {
+    margin-top: 85px;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 768px) {
+  .sp_container {
+    margin-top: 131px;
+  }
+}
+

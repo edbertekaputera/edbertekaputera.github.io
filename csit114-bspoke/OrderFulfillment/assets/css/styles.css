@@ -1,0 +1,17 @@
+.of_container {
+  margin-top: 171px;
+  z-index: 1;
+}
+
+@media (min-width: 768px) {
+  .of_container {
+    margin-top: 85px;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 768px) {
+  .of_container {
+    margin-top: 131px;
+  }
+}
+

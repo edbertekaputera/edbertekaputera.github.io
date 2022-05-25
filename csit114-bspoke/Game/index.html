@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>game</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:200,300,400,700&amp;display=swap">
+    <link rel="stylesheet" href="assets/fonts/fontawesome-all.min.css">
+    <link rel="stylesheet" href="assets/fonts/ionicons.min.css">
+    <link rel="stylesheet" href="assets/css/Navbar-Right-Links.css">
+    <link rel="stylesheet" href="assets/css/Steps-Progressbar.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-light navbar-expand-lg py-3 fixed-top navbar-expand-lg" style="box-shadow: 1px 0px 1px;background: var(--bs-white);">
+        <div class="container"><a class="navbar-brand d-flex align-items-center" href="../homepage/index.html">
+          <span class="bs-icon-sm bs-icon-rounded bs-icon-primary d-flex justify-content-center align-items-center me-2 bs-icon" style="width: 43px;height: 43px;">
+            <img src="../homepage/assets/img/bspoke_logotrans.png" style="width: 31px;"></span><span>Spoke</span></a>
+            <div class="d-flex w-auto overflow-auto mb-1 mt-1">
+                <input type="search" class="form-control" style="width: 358.875px;border-top-right-radius: 0px;border-bottom-right-radius: 0px;margin-left: 0px;" placeholder="Search Products and Spareparts">
+                <button class="btn btn-primary" type="button" style="border-top-left-radius: 0px;border-bottom-left-radius: 0px;background: var(--bs-gray-300);color: rgb(0,0,0);border-top-right-radius: 0px;border-bottom-right-radius: 0px;border-color: var(--bs-gray-400);">
+                    <i class="fas fa-filter"></i>
+                </button>
+                <button class="btn btn-primary" type="button" style="border-top-left-radius: 0px;border-bottom-left-radius: 0px;" onclick="window.location.href='../ShoppingCart/search.html'">
+                    <i class="fas fa-search"></i>
+                </button>
+            </div>
+            <button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navcol-2" style="margin-left: 0px;">
+                <span class="visually-hidden">Toggle navigation</span>
+                <span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navcol-2">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item mt-1 mt-lg-0 me-2"><button class="btn btn-primary" type="button" style="color: var(--bs-gray-600);background: var(--bs-white);border-color: var(--bs-gray-500);margin-right: 0px;margin-left: 0px;" onclick="window.location.href='../ProductCustomization/product customization.html'"><i class="far fa-edit" style="color: var(--bs-gray-600);"></i>&nbsp;<span class="d-lg-none d-xl-inline">Customize</span></button></li>
+                    <li class="nav-item mt-1 mt-lg-0 me-2"><button class="btn btn-primary" type="button" style="margin-left: 0px;margin-right: 0px;color: var(--bs-gray-700);background: var(--bs-white);border-color: var(--bs-gray-500);" onclick="window.location.href='../Rental/Rent_Scan.html'"><i class="icon ion-android-bicycle"></i><span class="d-lg-none d-xl-inline">&nbsp;Rent</span>&nbsp;</button></li>
+                    <li class="nav-item mt-1 mt-lg-0 me-2"><button class="btn btn-primary shopping-cart" type="button" style="background: var(--bs-white);color: var(--bs-gray-900);border-width: 1px;border-color: var(--bs-gray-500);margin-right: 0px;margin-left: 0px;" onclick="window.location.href='/ShoppingCart/cart.html'"><i class="fas fa-shopping-basket"></i></button></li>
+                    <li class="nav-item mt-1 mt-lg-0 me-2" style="margin-left: 0px;">
+                        <div class="dropdown"><button class="btn btn-primary dropdown-toggle" type="button" aria-expanded="false" data-bs-toggle="dropdown"><i class="far fa-user"></i>&nbsp;Account</button>
+                            <div class="dropdown-menu"><a class="dropdown-item" href="../Marketing/index.html">Reward</a><a class="dropdown-item" href="../CustomerAccount/edit_profile.html">Personalize</a><a class="dropdown-item" href="../OrderFulfillment/shippingstatus.html">Shipping Status</a><a class="dropdown-item" href="../Reselling/PostForSale.html">Sell</a><a class="dropdown-item" href="../Payment &amp; Billing/P&amp;B_Wallet.html">Wallet</a></div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+      </nav>
+    <div class="container container-sm" id="game">
+        <div class="row">
+            <div class="col">
+                <h1 class="mb-4">Your Race</h1>
+            </div>
+        </div>
+        <div class="row ps-5 pe-5">
+            <div class="col-md-6">
+                <div class="card"><img class="card-img-top w-100 d-block" src="assets/img/bicycle_game.gif">
+                    <div class="card-body">
+                        <h4 class="card-title" style="font-size: 20.42px;">Distance Remaining : <strong>1500 m</strong></h4>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="steps-progressbar">
+                    <ul>
+                        <li class="previous">Start</li>
+                        <li class="active">500 m</li>
+                        <li>1000 m</li>
+                        <li>Finish</li>
+                    </ul>
+                </div>
+                <div class="text-center"><button class="btn btn-primary me-2" type="button" style="filter: grayscale(100%);opacity: 0.41;">Paddle</button><button class="btn btn-primary ms-2" type="button" style="filter: grayscale(100%);opacity: 0.41;">Claim Rewards</button>
+                    <h6 class="text-muted mt-2">Paddle available in 2:00</h6>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div style="margin-top: 56px;background: var(--bs-gray-200);">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h1 style="margin-top: 29px;">Choose Race</h1>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3" style="margin-bottom: 50px;">
+                    <div class="card"><img class="card-img-top w-100 d-block" src="assets/img/2.png">
+                        <div class="card-body">
+                            <h4 class="card-title">Jogging</h4>
+                            <h6 class="text-muted card-subtitle mb-2">Distance: 1000 m</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3" style="margin-bottom: 50px;">
+                    <div class="card"><img class="card-img-top w-100 d-block" src="assets/img/4.png">
+                        <div class="card-body">
+                            <h4 class="card-title">Running</h4>
+                            <h6 class="text-muted card-subtitle mb-2">Distance: 1500 m</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3" style="margin-bottom: 50px;">
+                    <div class="card"><img class="card-img-top w-100 d-block" src="assets/img/1.png">
+                        <div class="card-body">
+                            <h4 class="card-title">Half Marathon</h4>
+                            <h6 class="text-muted card-subtitle mb-2">Distance: 2000 m</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3" style="margin-bottom: 50px;">
+                    <div class="card"><img class="card-img-top w-100 d-block" src="assets/img/3.png">
+                        <div class="card-body">
+                            <h4 class="card-title">Full Marathon</h4>
+                            <h6 class="text-muted card-subtitle mb-2">Distance: 3000 m</h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+</body>
+
+</html>
